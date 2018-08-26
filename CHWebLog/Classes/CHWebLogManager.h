@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CHWebLogManager : NSObject
+@interface CHWebLogManager : NSMutableString
++ (instancetype)sharedInstance;
+//先配置服务器路径
+void configChlogWithURLAndPort(NSString *url,NSInteger port);
 
-void chlog(NSString *log);
+//打印日志使用这个
+void chlog(NSString *log, ...)  NS_FORMAT_FUNCTION(1,2);
 
 @end

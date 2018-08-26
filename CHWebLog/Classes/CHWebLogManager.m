@@ -8,6 +8,12 @@
 
 #import "CHWebLogManager.h"
 
+@interface CHWebLogManager()
+@property (nonatomic,copy)NSString *host;
+@property (nonatomic,assign)NSInteger port;
+
+@end
+
 @implementation CHWebLogManager
 
 + (instancetype)sharedInstance
@@ -22,19 +28,43 @@
     }
 }
 
-void configChlogWithURLAndPort(NSString *url,NSString *port)
+void configChlogWithURLAndPort(NSString *url,NSInteger port)
 {
-    
+    [CHWebLogManager sharedInstance].host = url;
+    [CHWebLogManager sharedInstance].port = port;
 }
-void chlog(NSString *log)
+
+void chlog(NSString *log, ...)
 {
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURL *url = [NSURL URLWithString:@"http://192.168.0.2:8811/cgi-bin/get_post.py?log=lichanghong"];
-    NSURLSessionTask *task = [session dataTaskWithURL:url
-                                    completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-                                        
-                                    }];
-    [task resume];
+    @try {
+        va_list ap;
+        NSString *print;
+        va_start(ap,log);
+        print = [[NSString alloc] initWithFormat: log arguments: ap];
+        if (print == nil) {
+            print = @"";
+        }
+        va_end(ap);
+        
+        // 定义一个指向可选参数列表的指针
+        NSURLSession *session = [NSURLSession sharedSession];
+        NSString *strurl = [NSString stringWithFormat:@"http://%@:%ld/cgi-bin/log_record.py?log=%@",
+                            [CHWebLogManager sharedInstance].host,
+                            [CHWebLogManager sharedInstance].port,
+                            print];
+        strurl = [strurl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+        NSURL *url = [NSURL URLWithString:strurl];
+        NSURLSessionTask *task = [session dataTaskWithURL:url
+                                        completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                                            
+                                        }];
+        [task resume];
+    }
+    @catch (NSException * e) {
+    }
+    @finally {
+        
+    }
 }
 
 @end
