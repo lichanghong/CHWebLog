@@ -1,0 +1,22 @@
+{
+  "name": "CHWebLog",
+  "version": "0.1.0",
+  "summary": "A short description of CHWebLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1211054926@qq.com/CHWebLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1211054926@qq.com": "lichanghong@soyoung.com"
+  },
+  "source": {
+    "git": "https://github.com/1211054926@qq.com/CHWebLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CHWebLog/Classes/**/*"
+}

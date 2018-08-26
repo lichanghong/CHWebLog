@@ -1,0 +1,6 @@
+framework module CHWebLog {
+  umbrella header "CHWebLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CHWebLog (0.1.0)
+
+DEPENDENCIES:
+  - CHWebLog (from `../`)
+
+EXTERNAL SOURCES:
+  CHWebLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHWebLog: 730dd47ca5612badc200003a9f25f2979e568d22
+
+PODFILE CHECKSUM: 160b62b85c4eae42953f8cb4d85d636bdb42c4b4
+
+COCOAPODS: 1.5.3

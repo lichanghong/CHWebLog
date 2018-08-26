@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHWebLog_Example' do
+  pod 'CHWebLog', :path => '../'
+
+  target 'CHWebLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
