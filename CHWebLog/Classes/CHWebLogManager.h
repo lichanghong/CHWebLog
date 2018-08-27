@@ -15,5 +15,6 @@ void configChlogWithURLAndPort(NSString *url,NSInteger port);
 
 //打印日志使用这个
 void chlog(NSString *log, ...)  NS_FORMAT_FUNCTION(1,2);
+void chlogWithString(NSString *content);
 
 @end
