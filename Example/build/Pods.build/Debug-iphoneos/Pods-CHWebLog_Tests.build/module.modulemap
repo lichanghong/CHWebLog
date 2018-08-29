@@ -1,0 +1,6 @@
+framework module Pods_CHWebLog_Tests {
+  umbrella header "Pods-CHWebLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

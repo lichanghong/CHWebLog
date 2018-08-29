@@ -22,7 +22,7 @@ pod 'CHWebLog'
 
 ## Author
 
-1211054926@qq.com, lichanghong@soyoung.com
+1211054926@qq.com
 
 ## License
 

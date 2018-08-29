@@ -10,7 +10,6 @@
 		1B928132131EC9848F399C6AED214E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1C6EFEFFC00147EA15972D7B736F46DB /* CHWebLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF0AD18FA9751E4EF6EC4C478AEE732 /* CHWebLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23C6E3946A80F7BC9CE43A9B0033F7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3A4FBCB537D1A3C3B590B739275C4129 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AB39A63135ADA62E409DFD8169F555EE /* ReplaceMe.m */; };
 		4ABA81DDF318A73E15C1B22A8116E8D1 /* Pods-CHWebLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9A1C2DA4BAFDC39AF05886C0F9D2FE /* Pods-CHWebLog_Example-dummy.m */; };
 		56597BED93B66ECEA971F77DC9B7274C /* Pods-CHWebLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D3894063317035AA5CC1986F421ED2 /* Pods-CHWebLog_Tests-dummy.m */; };
 		5B8ACCEF661DCC959348F2001F5247C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -40,9 +39,9 @@
 		01D1CDEC11A5216C4D6C0BBD1DC77993 /* Pods-CHWebLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHWebLog_Example-resources.sh"; sourceTree = "<group>"; };
 		02D8A1F7B1F05FA9C23B5F652D147FBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FB4245ABBD0C5B8406B42CF1A191C7 /* Pods-CHWebLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHWebLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C43FC9E069A89F62532A56F1CF16D54 /* CHWebLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CHWebLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C43FC9E069A89F62532A56F1CF16D54 /* CHWebLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CHWebLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		141E768FB9DAE5E95E4170E95FD776A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C3865407D1DD96F634702271C68CCBB /* Pods_CHWebLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHWebLog_Tests.framework; path = "Pods-CHWebLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3865407D1DD96F634702271C68CCBB /* Pods_CHWebLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHWebLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0127013868B035E2DA3D6BC5D7E293 /* CHWebLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHWebLog.xcconfig; sourceTree = "<group>"; };
 		32B249DA0ABAD3380993873557CDBE7B /* Pods-CHWebLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHWebLog_Example.modulemap"; sourceTree = "<group>"; };
 		36B3A71A2F4BA4FF0F5CB3E7BF8A97D7 /* Pods-CHWebLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHWebLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -52,13 +51,12 @@
 		671AFED03DA44FC02190B738F0E3AAE0 /* CHWebLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHWebLog-dummy.m"; sourceTree = "<group>"; };
 		745C2D75469CF3626E46028AAA7759B9 /* Pods-CHWebLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHWebLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7834DE2E315CCDD3648F20C36C765025 /* CHWebLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHWebLog.modulemap; sourceTree = "<group>"; };
-		88C2A2B174A4329FE619515B084F8EC2 /* CHWebLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHWebLog.framework; path = CHWebLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		920B0E11D47EE5B13BE7B2FE29610B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AF924511DC6A2259B634A22722B3517 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88C2A2B174A4329FE619515B084F8EC2 /* CHWebLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHWebLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920B0E11D47EE5B13BE7B2FE29610B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF924511DC6A2259B634A22722B3517 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9D6F33C386228F93BE00E730C864F991 /* CHWebLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHWebLog-prefix.pch"; sourceTree = "<group>"; };
 		A7AE5D31487F023E46A15D971682A799 /* Pods-CHWebLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHWebLog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AB39A63135ADA62E409DFD8169F555EE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CHWebLog/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BD9A1C2DA4BAFDC39AF05886C0F9D2FE /* Pods-CHWebLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHWebLog_Example-dummy.m"; sourceTree = "<group>"; };
 		D0D3894063317035AA5CC1986F421ED2 /* Pods-CHWebLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHWebLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		D600FAD839F18177BA3644B5FAA84E40 /* Pods-CHWebLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHWebLog_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -70,7 +68,7 @@
 		E9501BBD58FA1D2483986280DC6D5F82 /* Pods-CHWebLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHWebLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC9FC0E49BEA9166DB4F98A2C8C1F540 /* Pods-CHWebLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHWebLog_Tests.modulemap"; sourceTree = "<group>"; };
 		F20F68E7B35138F0F12FC1B0629206C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F406CDB74B8177E7C129C7EAD90B2ADF /* Pods_CHWebLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHWebLog_Example.framework; path = "Pods-CHWebLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F406CDB74B8177E7C129C7EAD90B2ADF /* Pods_CHWebLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHWebLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF235D468D5CCA5A49A983B832766416 /* Pods-CHWebLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHWebLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,7 +208,6 @@
 		E209C651261CC31182D7DCEC5B17F34F /* CHWebLog */ = {
 			isa = PBXGroup;
 			children = (
-				AB39A63135ADA62E409DFD8169F555EE /* ReplaceMe.m */,
 				127497965D821938102B6B40FF645252 /* Pod */,
 				1FF6DAB9C4EBA15C4A887E3AD0B73B44 /* Support Files */,
 			);
@@ -352,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67402741517CE98D6704E3DCC1C873C8 /* CHWebLog-dummy.m in Sources */,
-				3A4FBCB537D1A3C3B590B739275C4129 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
