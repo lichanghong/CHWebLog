@@ -26,7 +26,7 @@ CHBaseUtil_WebLog 用于ios objc 调试的时候把日志输出到指定的本�
   s.homepage         = 'https://github.com/lichanghong/CHWebLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lichanghong' => 'lichanghong@soyoung.com' }
+  s.author           = { 'lichanghong' => '1211054926@qq.com' }
   s.source           = { :git => 'https://github.com/lichanghong/CHWebLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
